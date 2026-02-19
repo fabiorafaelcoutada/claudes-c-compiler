@@ -94,7 +94,14 @@ These personas represent specialized roles an AI agent can adopt.
 
 ## 4. Skills (Capabilities)
 
-These are abstract function calls or capabilities the agents use.
+These are abstract function calls or capabilities the agents use. For detailed implementation guides and best practices, see the `skills/` directory:
+
+*   [Refactoring Skills](skills/REFACTORING.md)
+*   [Performance Optimization Skills](skills/PERFORMANCE.md)
+*   [Code Quality Skills](skills/CODE_QUALITY.md)
+*   [Testing Skills](skills/TESTING.md)
+
+### Specific Capabilities:
 
 *   **`analyze_task(filepath)`**: Extract "Context", "Goal", and "Files" from a task description.
 *   **`compile_test(source_file, target_arch)`**: Run `ccc -o output source.c` for a specific target.
